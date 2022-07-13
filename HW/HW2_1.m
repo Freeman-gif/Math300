@@ -22,10 +22,12 @@ y = [ 5,10,15];
 %disp(anwser_6)
 %anwser_10 =y * x;
 %disp(anwser_10)
-anwser_11 =x * y';
-disp(anwser_11)
+%anwser_11 =x * y';
+%disp(anwser_11)
 anwser_12 =x .* y;
+disp(anwser_12)
 anwser_13 =A.* B;
+disp(anwser_13)
 
 
 
