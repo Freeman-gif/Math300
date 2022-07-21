@@ -55,6 +55,16 @@ display(expr.expand())
 def f(x): 
     return math.sqrt(x)
 functionf = f
+def midpoint(f, a, b, n):
+    h = float(b-a)/n
+    result = 0
+    for i in range(n):
+        result += f((a + h/2.0) + i*h)
+    result *= h
+    return result
+
+
+mid1 = midpoint(f, 10, 20, 30)
 
 def calculate(f,a = 0,b = 1,n = 60 ):
     summation = 0
